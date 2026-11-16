@@ -30,3 +30,19 @@
 .contact-card p{font-family:var(--display);font-size:clamp(27px,2.8vw,37px);line-height:1.1;margin:8px 0 10px}
 .contact-card small{display:block;font-size:13px;line-height:1.6;color:#6f625e}
 @media(max-width:760px){.hero{height:900px}.hero-botanical{top:390px;right:0;width:88%;height:470px}.glass-note{width:210px;padding:20px;bottom:42px}.glass-note .note-action{font-size:10px}.about{padding-bottom:55px}.services{padding-top:150px}.services::before{height:170px;top:-15px}.contact-card{padding:29px 26px}.contact-card p{font-size:30px}}
+
+.hero-copy > .glass-note {
+  position: relative;
+  inset: auto;
+  width: min(315px, 100%);
+  margin-top: clamp(24px, 4vw, 52px);
+}
+
+@media (min-width: 761px) {
+  .hero-copy { padding-top: clamp(140px, 18vh, 210px); padding-bottom: 48px; }
+}
+
+@media (max-width: 760px) {
+  .hero-copy > .glass-note { width: min(230px, 100%); }
+  .hero-botanical { top: 510px; height: 370px; }
+}
