@@ -20,7 +20,7 @@
 .service-photo img{object-position:center 34%}
 .about{position:relative;padding-bottom:80px}
 .services{position:relative;padding-top:220px}
-.services::before{content:"";position:absolute;top:-38px;left:0;right:0;height:240px;background:linear-gradient(180deg,var(--paper),#fcfaf8aa 25%,#fcfaf8 95%),url('assets/reference-2.png') center 44%/cover no-repeat;opacity:.72;mask-image:linear-gradient(transparent 0%,black 25%,black 67%,transparent 100%);-webkit-mask-image:linear-gradient(transparent 0%,black 25%,black 67%,transparent 100%);pointer-events:none}
+.services::before{content:"";position:absolute;top:-38px;left:0;right:0;height:240px;background:linear-gradient(180deg,var(--paper),#fcfaf8aa 25%,#fcfaf8 95%),url('assets/reference-3.png') center 44%/cover no-repeat;opacity:.72;mask-image:linear-gradient(transparent 0%,black 25%,black 67%,transparent 100%);-webkit-mask-image:linear-gradient(transparent 0%,black 25%,black 67%,transparent 100%);pointer-events:none}
 .services>.eyebrow,.services>.section-head,.services>.service-layout{position:relative}
 .contact-card{padding:39px 42px;border-radius:23px;background:linear-gradient(135deg,#ffffffcf,#fff6f3a8 55%,#ffffff9c);border:1px solid #fff;box-shadow:inset 1px 1px 2px #fff,inset -1px -1px 2px #e2d1d0a8,0 25px 60px #6d526126;backdrop-filter:blur(30px) saturate(145%);-webkit-backdrop-filter:blur(30px) saturate(145%)}
 .contact-card .tiny{display:block;color:var(--rose);font-size:11px;letter-spacing:2.2px;padding-bottom:23px;border-bottom:1px solid #fff}
