@@ -55,10 +55,8 @@
 }
 
 .about-services-transition {
-  height: clamp(150px, 21vw, 280px);
-  background:
-    linear-gradient(180deg, var(--paper), transparent 34%),
-    url('assets/liquid-texture.png') center 57% / cover no-repeat;
+  height: clamp(110px, 19vw, 250px);
+  background: url('assets/cloud-transition.png') center / min(100%, 900px) auto no-repeat;
 }
 
 .about-services-transition + .services { padding-top: clamp(34px, 6vw, 86px); }
