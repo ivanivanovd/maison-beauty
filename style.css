@@ -46,3 +46,25 @@
   .hero-copy > .glass-note { width: min(230px, 100%); }
   .hero-botanical { top: 510px; height: 370px; }
 }
+
+.hero-botanical {
+  transform: none;
+  top: 13%;
+  height: 75%;
+  pointer-events: none;
+}
+
+.about-services-transition {
+  height: clamp(150px, 21vw, 280px);
+  background:
+    linear-gradient(180deg, var(--paper), transparent 34%),
+    url('assets/liquid-texture.png') center 57% / cover no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201200%20240%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M0%200H1200V122C1150%20118%201111%20144%201075%20133S1014%20117%20990%20140C970%20160%20981%20203%20959%20211C934%20221%20934%20166%20911%20148S857%20153%20816%20141S751%20128%20728%20148C707%20165%20719%20226%20689%20230C659%20232%20670%20170%20644%20150S583%20124%20551%20137S509%20147%20478%20137S424%20129%20403%20153C388%20173%20393%20201%20373%20202C349%20204%20355%20161%20337%20148S287%20129%20252%20137S197%20157%20164%20144C141%20135%20123%20135%20109%20153C94%20172%20101%20218%2078%20216C54%20213%2062%20174%2046%20155S16%20149%200%20141Z%22%2F%3E%3C%2Fsvg%3E") center / 100% 100% no-repeat;
+}
+
+.about-services-transition + .services { padding-top: clamp(34px, 6vw, 86px); }
+.about-services-transition + .services::before { content: none; }
+
+@media (max-width: 760px) {
+  .hero-botanical { top: 510px; height: 370px; }
+}
